@@ -87,9 +87,16 @@ input
 .offer
 {
     letter-spacing: 5px;
-    color:black;
+    color:rgb(38, 59, 38);
+    font-weight: lighter;
 }
-
+@media (max-width: 770px) 
+{
+    .offer
+    {
+        margin-top: 40px;
+    }
+}
 .video-sec 
 {
     background-color:rgba(0, 255, 255, 0.356);
