@@ -95,6 +95,12 @@ input
     .offer
     {
         margin-top: 40px;
+        font-size: 20px !important;
+    }
+    .offer button
+    {
+        font-size: large !important;
+        padding: 10px 15px !important;
     }
 }
 .video-sec 
@@ -362,7 +368,7 @@ input
 }
 .last
 {
-   background-color: rgba(161, 143, 143, 0.863);
+    background-color: rgba(145, 130, 130, 0.137);
 }
 .fa
 {
