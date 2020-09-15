@@ -35,12 +35,12 @@
 
    <ul class="navbar-nav ml-auto">
      <li class="nav-item">
-       <a  class="nav-link" href="#">Mak</a>
+       <a  class="nav-link" href="index.html">Home</a>
 
      </li>
 
      <li class="nav-item">
-       <a class="nav-link" href="#">Blogs</a>
+       <a class="nav-link" href="#blogs">Blogs</a>
 
      </li>
 
@@ -48,21 +48,21 @@
 
        <a href="Products" class="nav-link dropdown-toggle" data-toggle="dropdown">Products</a>
        <div class="dropdown-menu">
-         <a href="#" class="dropdown-item">Fruits</a>
+         <a href="#vege" class="dropdown-item">Fruits</a>
          <div class="dropdown-divider"></div>
-         <a href="#" class="dropdown-item">Vegetables</a>
+         <a href="#vege" class="dropdown-item">Vegetables</a>
          <div class="dropdown-divider"></div>
-         <a href="#" class="dropdown-item">Diary Products</a>
+         <a href="#fruit" class="dropdown-item">Diary Products</a>
        </div>
       
      </li>
     <li class="nav-item dropdown">
-      <a href="#" class="nav-link dropdown-toggle " data-toggle="dropdown">Enter</a>
-       <div class="dropdown-menu">
+      <a href="#" data-toggle="modal" data-target="#login_modal" class="nav-link">Log in</a>
+       <!-- <div class="dropdown-menu">
          <a href="#" class="dropdown-item">Log in</a>
          <div class="dropdown-divider"></div>
          <a href="#" class="dropdown-item">New user</a>
-       </div>
+       </div> -->
      </li>
 
    </ul>
@@ -143,7 +143,7 @@
  <!-- Section 1 starts here -->
  <header class="section1" style="padding-top: 15px;">
  <div class="container-fluid">
-    <div class="title1">
+    <div class="title1" id="vege">
       <h2>Our Harvest</h2>
     </div> 
     <div class="row">
@@ -169,7 +169,7 @@
     </div>
 
     <div class="col-sm-6 col-md-6 col-lg-3">
-      <div class="card ">
+      <div class="card">
         <h3 class="card-title">Greens</h3>
         <img class="card-img-top" src="images/slide0.jpg">
         <footer class="card-footer">
@@ -204,7 +204,7 @@
     
     
     <div class="col-sm-6 col-md-6 col-lg-3">
-      <div class="card ">
+      <div class="card" id="fruit">
         <h3 class="card-title">Onion</h3>
         <img class="card-img-top" src="images/onions.jpg">
         <footer class="card-footer">
@@ -293,6 +293,48 @@
   </div>
 </div>
 
+
+<!-- Blogs -->
+<div class="blog-section">
+<div class="container-fluid">
+  <div class="blogs" id="blogs">
+    <center><h2 style="margin: 100px auto  100px auto; letter-spacing: 4px;" >Our Blogs</h2></center>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="blog1 text-justify">
+        <a href="#">Seasonal Fruits</a>
+        <p>Seasonal fruits are simply fruits that are at a peak in terms of harvest and flavour in a particular season.India is one of the leading producers of fruits.</p>
+      </div>
+      </div>
+      <div class="col-md-6">
+        <div class="blog2">
+          <a href="#">
+            <a href="#">Organic Farming</a>
+            <p>Organic farming is an agricultural system which originated early in the 20th century in reaction to rapidly changing farming practices.</p>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="blog3">
+          <a href="#">
+            <a href="#">Healthy Snacks</a>
+            <p>Farming is growing crops or keeping animals by people for food and raw materials. Farming is a part of agriculture.</p>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="blog4">
+          <a href="#">
+            <a href="#">Home Remedies</a>
+            <p>It is also known as gum tree, nilgiri tree or safeda. It is planted for fuel wood, poles, timber,and for essential oil purpose.</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- blogs end her -->
 <!-- section 3 -->
 <div class="section3">
   <div class="container">
@@ -304,7 +346,7 @@
             <div class="card">
 
             <img  src="images/cust1.jpg">
-          <p class="card-text" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Non repudiandae iusto animi,  illum vitae.</p>
+          <p class="card-text" >The Guinea fowl flies through the air with all the grace of a turtle.</p>
               
                 <p class="blockquote-footer">Alex Standal</p>  
         </div>  
@@ -313,7 +355,7 @@
             <div class="card">
 
               <img  src="images/cust2.jpg">
-        <p class="card-text" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Non repudiandae iusto animi,  illum vitae.</p>
+        <p class="card-text" >All they could see was the blue water surrounding their sailboat.</p>
               
                 <p class="blockquote-footer">Bethony </p>  
       </div>
@@ -323,7 +365,8 @@
             <div class="card">
 
               <img  src="images/cust3.jpg">
-        <p class="card-text" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Non repudiandae iusto animi,  illum vitae.</p>
+        <p class="card-text" >The crowded unique pedals into the frayed passage.
+          Did really very well .</p>
               
                 <p class="blockquote-footer">Angela</p>  
       </div>
@@ -333,7 +376,7 @@
       <div class="card">
 
         <img  src="images/cust2.jpg">
-  <p class="card-text" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Non repudiandae iusto animi,  illum vitae.</p>
+  <p class="card-text" >They strive to keep the best lawn in the neighborhood.</p>
         
           <p class="blockquote-footer">Bethony</p>  
 </div>
@@ -344,7 +387,7 @@
   <div class="card">
 
     <img  src="images/cust3.jpg">
-<p class="card-text" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Non repudiandae iusto animi,  illum vitae.</p>
+<p class="card-text" >He kept telling himself that one day it would all somehow make sense.</p>
     
       <p class="blockquote-footer">Angela</p>  
 </div>
@@ -355,7 +398,7 @@
   <div class="card">
 
     <img  src="images/cust1.jpg">
-<p class="card-text" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Non repudiandae iusto animi,  illum vitae.</p>
+<p class="card-text" >Best Organic vegetables i have ever tasted.</p>
     
       <p class="blockquote-footer">Alex Standal</p>  
 </div>
@@ -366,6 +409,8 @@
     </div>
   </div>
 </div>
+
+
 
 <!-- about footer -->
 <div class="end">
@@ -389,17 +434,7 @@
 </div>
 
 
-<!-- Modal Video -->
-<div class="modal" id="modal_video" tabindex="-1" role="dialog">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" controls src="https://youtube.com/embed/bWM5cRokDYo"></iframe>
-    
-        </div>
-    </div>
-  </div>
-</div>
+
 
 <!-- main footer -->
 
@@ -441,9 +476,47 @@
   </div>
 </footer>
 
+<!-- Modal Video -->
+<div class="modal" id="modal_video" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" controls src="https://youtube.com/embed/bWM5cRokDYo"></iframe>
+    
+        </div>
+    </div>
+  </div>
+</div>
 
-
-
+<!-- log in modal -->
+<div class="sign-in">
+<div class="modal" id="login_modal" role="dialog" tabindex="-5">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="embed-responsive">
+        <div class="login">
+           <h3>Login/SignUp</h3>
+           <center>
+           <input class="input-group-text" type="email" placeholder="Your email address">
+           <input  class="input-group-text" type="password" placeholder="Password"><br>
+           <button class="btn bg-light" type="submit">Login</button>
+          </center>
+           <div class="google">
+             <p>or</p>
+             <h6>Sign in with</h6>
+             <i class="fa fa-facebook"></i>
+             <i class="fa fa-twitter"></i>
+             <i class="fa fa-google-plus"></i>
+             <!-- <button class="btn1">Google</button>
+             <button class="btn2">Facebook</button> -->
+           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
