@@ -322,7 +322,7 @@ input
 }
 .blogs a
 {
-    font-size: 35px;
+    font-size: 30px;
     margin-bottom: 35px;
 }
 .blog1
@@ -480,11 +480,16 @@ input
         margin: 0px !important;
     }
 }
-@media(max-width)
+@media(max-width:450px)
 {
     .sign-in .modal
 {
     margin-top: 20px;
    
+}
+.blogs a
+{
+    font-size:25px;
+    color: rgb(41, 113, 141);
 }
 }
