@@ -1,12 +1,13 @@
 body {
     font-family: 'Lato', sans-serif;
 }
-html{font-family: 'Lato', sans-serif;}
+html{
+    font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
+}
 .navbar {
     z-index: inherit 5;
-    width:%;
-
-
+    width:100%;
 }
 
 .navbar-nav a {
