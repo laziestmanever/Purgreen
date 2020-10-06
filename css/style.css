@@ -2,8 +2,11 @@ body {
     font-family: 'Lato', sans-serif;
 }
 html{
-    font-family: 'Lato', sans-serif;
     scroll-behavior: smooth;
+}
+h2
+{
+    text-transform: uppercase;
 }
 .navbar {
     z-index: inherit 5;
@@ -456,7 +459,7 @@ input {
 }
 
 .fa {
-    color: black;
+    color: rgb(10, 113, 182);
     font-size: 25px;
 }
 
